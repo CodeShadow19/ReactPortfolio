@@ -1,0 +1,309 @@
+/*** REUSABLE COMPONENT ***/
+body{
+	font-family: 'Titillium Web', sans-serif;
+}
+h1{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 42px;
+	text-transform: capitalize;
+}
+h4{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 30px;
+	text-transform: capitalize;
+}
+p{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 18px;
+	text-transform: capitalize;
+}
+.btn{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 18px;
+	text-transform: capitalize;
+}
+.mainCard:hover{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/*** START TOP NAVIGATION SECTION ***/
+.navItemClass{
+	text-transform: uppercase;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 18px;
+}
+/*** END TOP NAVIGATION SECTION ***/
+
+
+/*** START BANNER SECTION ***/
+.topBanner{
+    overflow: hidden;
+    background: url(../../assets/images/banner2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	height: 65vh;
+	position: relative;
+    color: #fff;
+}
+.topBanner .topTitle{
+    margin-top: 25vh;
+	font-size: 50px;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 700;
+}
+.topBanner .topDes{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 26px;
+}
+/*** END BANNER SECTION ***/
+
+
+/*** START SERVICES SECTION ***/
+
+.servicesSection{
+	text-align: center;
+	overflow: hidden;
+	color: #000;
+	background: #fff;
+}
+.servicesContainer{
+	margin: 60px auto;
+}
+.servicesSection .servicesTitle{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.servicesSection .cardImg{
+	height: 200px;
+	width: 60%;
+	margin-left: 20%;
+	margin-top: 20px;
+}
+.servicesSection .cardTitle{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+.servicesSection .cardDes{
+	font-size: 20px;
+	font-weight: 500;
+}
+/*** END SERVICES SECTION ***/
+
+/*** START PORTFOLIO SECTION ***/
+
+.portfolioSection{
+	overflow: hidden;
+	color: #000;
+	background: rgba(149, 153, 156, 0.14);
+}
+.portfolioContainer{
+	margin:50px auto;
+	text-align: center;
+}
+.portfolioSection .portfolioTitle{
+	margin-bottom: 40px;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 45px;
+	font-weight: 600;
+}
+.portfolioSection .portfolioCard{
+	margin-bottom: 20px;
+}
+
+/*** END PORTFOLIO SECTION ***/
+
+
+/*** START SKILL SECTION ***/
+
+.skillSection{
+	overflow: hidden;
+	color: #000000;
+}
+.skillContainer{
+	margin: 60px auto;
+}
+.skillSection .skillTitle{
+	margin-bottom: 30px;
+}
+
+/*** END SKILL SECTION ***/
+
+/*** START SUMMARY SECTION ***/
+
+.summarySection{
+	overflow: hidden;
+	color: #fff;
+	background: url(http://localhost/images/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	position: relative;
+}
+.summaryContainer{
+	margin: 40px auto;
+}
+.summarySection .countNumber{
+	margin-top: 50px;
+}
+.summarySection .workCard{
+	color: #000000;
+}
+
+/*** END SUMMARY SECTION ***/
+
+
+/*** START CONTACT SECTION ***/
+
+.contactSection{
+	overflow: hidden;
+	background: #dae0e5;
+	color: #000000;
+}
+.contactContainer{
+	margin:60px auto;
+}
+.contactSection .contactTitle{
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+.contactSection h4{
+	margin-bottom: 10px;
+	font-weight: 500;
+}
+.contactSection p{
+	text-transform: none;
+}
+
+/*** END CONTACT SECTION ***/
+
+
+/*** START CLIENT REVIEW SECTION ***/
+
+.clientreviewSection{
+	overflow: hidden;
+	color: #000000;
+}
+.clientreviewContainer{
+	margin: 60px auto;
+	text-align: center;
+}
+.clientreviewSection .circleImg{
+	margin: 0 auto;
+	width: 100px;
+	height: 100px;
+	border: 1px solid #0073E6;
+	border-radius: 50%;
+}
+
+/*** END CLIENT REVIEW SECTION ***/
+
+
+/*** START FOOTER SECTION ***/
+
+.footerSection{
+	overflow: hidden;
+	color: #000000;
+	background: rgba(149, 153, 156, 0.14);
+}
+.footerContainer{
+	margin: 40px auto;
+}
+.footerSection .footerTitle{
+	color: #000000;
+	font-weight: 600;
+}
+.footerSection li{
+	list-style: none;
+}
+.footerSection a{
+	display: block;
+	text-transform: capitalize;
+	text-decoration: none !important;
+	font-size: 18px;
+	font-family: 'Titillium Web', sans-serif;
+	margin-top: 5px;
+}
+.footerSection p{
+	text-transform: none;
+}
+/*** END FOOTER SECTION ***/
+
+
+/*** Pages CSS ***/
+
+
+/*** START BREADGUM SECTION ***/
+
+.breadgumSection{
+	overflow: hidden;
+	color: #fff;
+	background: url(http://localhost/images/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	position: relative;
+	height: 65vh;
+	text-align: center;
+}
+
+.breadgumSection .breadgumTitle{
+	margin-top: 30vh;
+}
+
+/*** END BREADGUM SECTION ***/
+
+/*** START ABOUT ME SECTION ***/
+
+.aboutmeSection{
+	overflow: hidden;
+}
+.aboutmeContainer{
+	margin: 70px auto;
+}
+
+/*** END ABOUT ME SECTION ***/
+
+/*** START PRIVACY & POLICY SECTION ***/
+
+.privacySection{
+	overflow: hidden;
+}
+.privacyContainer{
+	margin: 70px auto;
+}
+
+/*** END PRIVACY & POLICY SECTION ***/
+
+
+/*** START PROJECT DETAILS SECTION ***/
+.projectDetails{
+	overflow: hidden;
+	color: #000000;
+}
+.projectDetails .projectDetailsContainer{
+	margin: 60px auto;
+}
+.projectDetails .projectImg{
+	height: 400px;
+	width: 360px;
+	margin: 50px 10%;
+	width: 80%;
+}
+.projectDetails .projectName{
+	font-size: 50px;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 600;
+}
+/*** END PROJECT DETAILS SECTION ***/
+
+.allProjects{
+	background: #fff !important;
+}
